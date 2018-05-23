@@ -3,7 +3,6 @@
 const glsl = require("glslify");
 const createCube = require("primitive-cube");
 const unindex = require("unindex-mesh");
-
 const renderEnvMap = require("regl-render-envmap");
 
 module.exports = function createAtmosphereRenderer(regl) {
