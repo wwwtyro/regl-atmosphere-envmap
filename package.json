@@ -1,0 +1,26 @@
+{
+  "name": "regl-atmosphere-skybox",
+  "license": "ISC",
+  "author": "",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "budo -H 0.0.0.0 example.js:bundle.js --live"
+  },
+  "browserify": {
+    "transform": ["glslify"]
+  },
+  "keywords": [],
+  "main": "index.js",
+  "description": "",
+  "dependencies": {
+    "budo": "^11.2.2",
+    "gl-matrix": "^2.6.1",
+    "glsl-atmosphere": "^2.0.0",
+    "glslify": "^6.1.1",
+    "primitive-cube": "^2.0.1",
+    "regl": "^1.3.5",
+    "regl-render-envmap": "^1.0.2",
+    "trackball-controller": "^1.1.1",
+    "unindex-mesh": "^2.0.0"
+  }
+}
