@@ -3,6 +3,10 @@
 Easily generate an environment map, or skybox, of Earth atmosphere given a 3D vector representing the direction of the
 sun.
 
+<p align="center">
+  <img src="https://github.com/wwwtyro/regl-atmosphere-envmap/raw/master/example.png">
+</p>
+
 ## Install
 
 ```
