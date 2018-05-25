@@ -1,5 +1,5 @@
 {
-  "name": "regl-atmosphere-skybox",
+  "name": "regl-atmosphere-envmap",
   "license": "Unlicense",
   "author": "Rye Terrell <ryeterrell@ryeterrell.net> (http://wwwtyro.net)",
   "version": "1.0.0",
