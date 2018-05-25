@@ -2,7 +2,7 @@
   "name": "regl-atmosphere-envmap",
   "license": "Unlicense",
   "author": "Rye Terrell <ryeterrell@ryeterrell.net> (http://wwwtyro.net)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "budo -H 0.0.0.0 example.js:bundle.js --live"
   },
