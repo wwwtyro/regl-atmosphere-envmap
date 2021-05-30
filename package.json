@@ -4,7 +4,8 @@
   "author": "Rye Terrell <ryeterrell@ryeterrell.net> (http://wwwtyro.net)",
   "version": "1.0.1",
   "scripts": {
-    "start": "budo -H 0.0.0.0 example.js:bundle.js --live"
+    "start": "budo -H 0.0.0.0 example.js:bundle.js --live",
+    "build": "browserify index.js -o lib/bundle.js"
   },
   "browserify": {
     "transform": [
@@ -22,7 +23,7 @@
     "cubemap",
     "environment map"
   ],
-  "main": "index.js",
+  "main": "./lib/bundle.js",
   "description": "Easily generate an environment map, or skybox, of Earth atmosphere given a 3D vector representing the direction of the sun.",
   "dependencies": {
     "glsl-atmosphere": "^2.0.0",
