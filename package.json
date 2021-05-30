@@ -5,7 +5,7 @@
   "version": "1.0.3",
   "scripts": {
     "start": "budo -H 0.0.0.0 example.js:bundle.js --live",
-    "build": "browserify index.js -o lib/bundle.js"
+    "build": "browserify index.js -s createAtmosphereRenderer -o lib/bundle.js"
   },
   "browserify": {
     "transform": [
