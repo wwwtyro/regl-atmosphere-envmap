@@ -9,7 +9,7 @@ module.exports = function createAtmosphereRenderer(regl) {
   const cube = unindex(createCube(1));
 
   const envmapCommand = regl({
-    vert: glsl`
+    vert: glsl(`
       precision highp float;
 
       attribute vec3 position;
@@ -22,8 +22,8 @@ module.exports = function createAtmosphereRenderer(regl) {
         gl_Position = projection * view * vec4(position, 1);
         pos = position;
       }
-    `,
-    frag: glsl`
+    `),
+    frag: glsl(`
       precision highp float;
 
       uniform vec3 sundir;
@@ -49,7 +49,7 @@ module.exports = function createAtmosphereRenderer(regl) {
 
         gl_FragColor = vec4(color, 1);
       }
-    `,
+    `),
     attributes: {
       position: cube,
     },
